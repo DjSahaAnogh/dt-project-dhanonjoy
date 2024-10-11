@@ -19,7 +19,7 @@ body{
 nav{
   background-color: rgba(240, 255, 255, 0.274);
   backdrop-filter: blur(10px);
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0);
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0);
   border-radius: 6px;
 }
 
@@ -98,4 +98,19 @@ nav ul li a svg{
   .sidebar{
     width: 100%;
   }
+}
+
+main{
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.548);
+  border-radius: 6px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+  margin: auto;
+}
+
+main h1{
+  font-size: 84px;
+  font-family: "Inconsolata", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 50px;
+  margin-top: 15px;
 }
