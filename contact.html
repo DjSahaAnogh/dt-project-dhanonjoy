@@ -6,6 +6,12 @@
   <title>DT Project</title>
   <link rel="stylesheet" href="main.css" />
   <link rel="icon" href="/dt-project-dhanonjoy/pics/php.gif">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
 </head>
 <body class="contact-body" >
   <header>
@@ -37,11 +43,20 @@
   </header>
   <main>
     <div class="contact-container">
-      <form action="" class="contact-left">
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <div class="contact-info">
+          <p class="name">Dhanonjoy Saha Anogh</p>
+          <p class="info"><span><img class="icons" src="/dt-project-dhanonjoy/pics/facebook.png" alt=""></span><a href="https://www.facebook.com/profile.php?id=100092660740009" class="media-link">Dhanonjoy Saha Anogh</a></p>
+          <p class="info"><span><img class="icons" src="/dt-project-dhanonjoy/pics/instagram.png" alt=""></span><a href="https://www.instagram.com/dj_saha_notfound/?next=%2F" class="media-link">dj_saha_notfound</a></p>
+          <p class="info"><span><img class="icons" src="/dt-project-dhanonjoy/pics/github.png" alt=""></span><a href="https://github.com/DjSahaAnogh" class="media-link">DjSahaAnogh</a></p>
+          <p class="info"><span><img class="icons" src="/dt-project-dhanonjoy/pics/linkedin.png" alt=""></span><a href="https://www.linkedin.com/in/dhanonjoy-saha-anogh/" class="media-link">Dhanonjoy Saha Anogh</a></p>
+          <p class="info"><span><img class="icons" src="/dt-project-dhanonjoy/pics/discord.png" alt=""></span><a href="#" class="media-link">dj_saha</a></p>
+        </div>
         <div class="contact-left-title">
           <h2>Get in touch</h2>
           <hr>
         </div>
+        <input type="hidden" name="access_key" value="66a766fe-ba3b-44e3-b34e-9ad423fb41c1">
         <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
         <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
         <textarea name="message" placeholder="Your message" class="contact-inputs" required></textarea>

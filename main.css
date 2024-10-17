@@ -238,6 +238,38 @@ main h1{
   gap: 20px;
 }
 
+.contact-info{
+  padding: 10px;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.name{
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Inconsolata", Arial, Helvetica, sans-serif;
+  padding: 3px;
+  color: white;
+}
+
+.icons{
+  width: 30px;
+}
+
+.media-link{
+  text-decoration: none;
+  color: #2596be;
+}
+
 .contact-left-title h2{
   font-weight: 600;
   color: #a363aa;
@@ -303,4 +335,50 @@ main h1{
   .contact-right{
     display: none;
   }
+}
+
+.protfolio{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to right, #f06b6b, #f09656, #f0c249);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cards a{
+  text-decoration: none;
+  color: white;
+  font-size: 46px;
+  font-family: "Outfit" Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.ruler{
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.discription{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.note{
+  color: black;
+  font-family: "Inconsolata", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
