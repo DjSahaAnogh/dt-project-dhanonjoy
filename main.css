@@ -338,6 +338,21 @@ main h1{
   }
 }
 
+@media (max-width: 425px) {
+  .contact-inputs{
+    width: 65vw;
+  }
+  .contact-right{
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .name{
+    font-size: 26px;
+  }
+}
+
 .protfolio{
   display: flex;
   justify-content: center;
