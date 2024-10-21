@@ -12,6 +12,10 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+header{
+  margin-bottom: 5px;
+}
+
 .logo{
   height: 50px;
 }
@@ -382,10 +386,10 @@ main h1{
 .ruler{
   border: none;
   width: 120px;
-  height: 5px;
+  height: 3px;
   background-color: white;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .discription{
